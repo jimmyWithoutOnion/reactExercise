@@ -12,7 +12,6 @@ const seasonConfig = {
   }
 };
 
-
 const getSeason = (lat, month) => {
   if (month > 2 && month < 9) {
     return lat > 0 ? 'summer' : 'winter';
@@ -34,7 +33,6 @@ const SeasonDisplay = (props) => {
       <i className={`icon-right massive ${iconName} icon`}/>
     </div>
   )
-
 };
 
 
